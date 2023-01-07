@@ -9,16 +9,24 @@
       name="description"
       content="Recession proof your career by learning the most valuable digital skills from the Best in the Industry. 100% Live Classes, 1:1 Career Coaching, Lifelong Community support"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/index.css" />
   </head>
+
   <body>
-    <header>
-      <nav class="navigation container">
+    <header class="header container">
+      <nav class="navigation">
         <div>
           <img class="logo" src="/assets/brand/revou.svg" alt="RevoU" />
         </div>
         <div>
-          <ul>
+          <ul class="navigation-items">
             <li><a href="/programs">Programs</a></li>
             <li><a href="/contribute">Contribute</a></li>
             <li><a href="/about">About</a></li>
@@ -27,11 +35,29 @@
       </nav>
     </header>
 
-    <main>
-      <h1>Heading</h1>
+    <main class="main">
+      <section class="hero container">
+        <div class="hero-lock">
+          <h1>
+            <span>Join Indonesia’s</span>
+            <span class="accent">Largest Live Online Learning Community</span>
+          </h1>
+          <p>
+            Recession Proof your Career by learning the most valuable digital
+            skills from the Best in the Industry. 100% Live Online Classes, 1:1
+            Career Coaching, and Lifelong Community support to unlock endless
+            opportunities.
+          </p>
+          <a href="/programs" class="button-cta"> Explore Our Programs </a>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2022 Company Name</p>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
   </body>
