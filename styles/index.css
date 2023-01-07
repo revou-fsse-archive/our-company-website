@@ -1,9 +1,24 @@
-@import url("/styles/base.css"); /* Using a url */
+@import url("/styles/base.css");
+
+:root {
+  --color-white: #eee;
+  --color-black: #111;
+  --color-primary: #ffde3d;
+}
+
+/* Custom Default Styles */
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
 
 /* Custom Semantic CSS */
 
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 .navigation .logo {
@@ -11,10 +26,81 @@
   width: 50px;
 }
 
+.navigation-items {
+  display: flex;
+  gap: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem;
+}
+
+.navigation-items a:hover {
+  opacity: 0.5;
+}
+
+.hero {
+  padding-top: 4rem;
+}
+
+.hero-lock {
+  max-width: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.hero-lock h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 500px;
+}
+
+.hero-lock h1 .accent {
+  color: var(--color-primary);
+  background-color: var(--color-black);
+}
+
+.hero-lock p {
+  line-height: 2rem;
+}
+
+.button-cta {
+  display: inline-block;
+  color: var(--color-black);
+  background-color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  transition: all 0.2s;
+}
+
+.button-cta:hover {
+  color: var(--color-primary);
+  background-color: var(--color-black);
+}
+
+.main {
+  margin-bottom: 5rem;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  background-color: #333;
+  color: var(--color-white);
+}
+
 /* Custom Utility CSS */
 
 .container {
-  padding: 0 2rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   width: 100%;
   max-width: 72rem;
 }
