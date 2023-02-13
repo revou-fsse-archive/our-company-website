@@ -1,13 +1,17 @@
-# Our Company Website
+# RevoU
 
-This is the group Project Example for Our Company Website.
+The website itself is inspired by [RevoU](https://revou.co) company website.
 
-The website itself is inspired by RevoU company website.
+## Pages
+
+- Home
+- About
+- Contribute
 
 ## Links/URLs
 
-- <https://revou-company-website.netlify.app>
-- <https://revou-company.mhaidarhanif.com>
+- [revou-company-website.netlify.app](https://revou-company-website.netlify.app)
+- [revou-company.mhaidarhanif.com](https://revou-company.mhaidarhanif.com)
 
 ## Design
 
