@@ -1,8 +1,12 @@
-# Our Company Website
+# RevoU
 
-This is the group Project Example for Our Company Website.
+The website itself is inspired by [RevoU](https://revou.co) company website.
 
-The website itself is inspired by RevoU company website.
+## Pages
+
+- Home
+- About
+- Contribute
 
 ## Links/URLs
 
