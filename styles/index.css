@@ -53,7 +53,6 @@ body {
       hsla(50, 100%, 62%, 0.5)
     ),
     url("https://images.unsplash.com/photo-1531496730074-83b638c0a7ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-  background-image: ;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,7 +89,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 5rem;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   transition: all 0.2s;
@@ -107,7 +106,7 @@ body {
 
 .graduate h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   font-weight: 700;
 }
@@ -127,4 +126,14 @@ body {
   padding-right: 2rem;
   width: 100%;
   max-width: 72rem;
+}
+
+@media screen and (min-width: 780px) {
+  .button-cta {
+    padding: 1rem 2rem;
+  }
+
+  .graduate h2 {
+    font-size: 2rem;
+  }
 }
